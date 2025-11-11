@@ -17,3 +17,18 @@ if player == "rock":
     else:
         print("The computer picks... rock! The game is a draw...")
         
+elif player == "paper":
+    if computer == "scissors":
+        print("The computer picks... scissors! You lose :(")
+    elif computer == "rock":
+        print("The computer picks... rock! You win!!")
+    else:
+        print("The computer picks... paper! The game is a draw...")
+        
+else:
+    if computer == "rock":
+        print("The computer picks... rock! You lose :(")
+    elif computer == "paper":
+        print("The computer picks... paper! You win!!")
+    else:
+        print("The computer picks... scissors! The game is a draw...")
