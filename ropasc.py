@@ -25,10 +25,13 @@ elif player == "paper":
     else:
         print("The computer picks... paper! The game is a draw...")
         
-else:
+elif player == "scissors":
     if computer == "rock":
         print("The computer picks... rock! You lose :(")
     elif computer == "paper":
         print("The computer picks... paper! You win!!")
     else:
         print("The computer picks... scissors! The game is a draw...")
+        
+else:
+    print("Please try again...")
